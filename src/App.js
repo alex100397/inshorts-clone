@@ -25,7 +25,7 @@ const newsApi = async () => {
 };
 
 useEffect(()=> {
-  newsApi();
+  newsApi(); // eslint-disable-next-line
 },[newsResult,category,loadMore]);
 
   return (
