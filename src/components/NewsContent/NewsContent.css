@@ -1,0 +1,22 @@
+.downloadBox{
+    background-color: #f44336;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    color:white;
+    padding: 0 40px;
+    height: 48px;
+    margin: 20px 0 20px 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+}
+
+.downloadText{
+    flex: 1;   
+}
+
+@media (max-width:995px){
+    .downloadBox{
+        display: none;
+    }
+}
